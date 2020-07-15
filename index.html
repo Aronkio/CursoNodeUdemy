@@ -19,7 +19,10 @@
 		Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ac massa in nulla tincidunt interdum a sed diam. Vestibulum a arcu nisi. Nullam quis elit pellentesque lectus pellentesque imperdiet vitae in libero. Maecenas vestibulum mollis sapien, sit amet dictum leo placerat varius. Donec ac sem vitae risus rhoncus placerat. In hac habitasse platea dictumst. Praesent dignissim feugiat finibus. Sed vel urna at felis mollis laoreet ut vitae erat. Pellentesque erat est, viverra eget neque nec, finibus varius dui. Vestibulum odio neque, commodo non nisl eu, fermentum placerat eros. Integer congue orci et dui luctus, eu pharetra augue faucibus. Duis lobortis id velit et ultrices. Curabitur pulvinar felis interdum risus scelerisque finibus. Curabitur quam ipsum, aliquet nec dolor finibus, pellentesque suscipit mi. Duis sit amet est ac sapien ullamcorper interdum eget at lorem. Integer eros tortor, posuere quis euismod id, luctus viverra orci.
 		
 	</p>
-	<hr/>
+	
+
+	<h2> Imagenes en HTML</h2>
+	<img src="imagenes/mono.jpg" alt="Imagene de un Mono" title="Foto de Mono" width="255px" height="">
 
 	<h3> Tercer Encabezado  </h3>
 
@@ -28,6 +31,36 @@
 		<blockquote>Curabitur quam ipsum, <span id="resaltado" class="rojo amarillo"> aliquet nec dolor finibus, pellentesque suscipit mi. Duis sit amet est ac sapien ullamcorper interdum eget at lorem. Integer eros tortor, posuere quis euismod id,<i> luctus viverra orci.</i></span>  
 		</blockquote>
 	</p>
+
+<h3> Formularios</h3>
+<form>
+	<p>
+		<label for="nombre">Nombre</label>
+		<input type="text" name="nombre" placeholder="Escribe tu Nombre">
+	</p>
+
+	<p>
+		<label for="descripcion"> Descripcion</label>
+		<textarea name="descripcion"></textarea>
+	</p>	
+
+	<input type="radio" name="genero" value="hombre"> Hombre <br>
+	<input type="radio" name="genero" value="mujer"> Mujer <br>
+	<input type="radio" name="genero" value="nada"> Nada <br>
+
+
+	<select name="genero2">
+		<option value="hombre">Hombre</option>
+		<option value="mujer">Mujer</option>
+		<option value="nada">Nada</option>
+	</select>
+
+	<input type="submit" value="Enviar formulario" name="">
+
+
+
+</form>
+
 <h3> Listado de Frutas</h3>
 		<OL>
 			<li>Manzana
@@ -51,6 +84,25 @@
 			<li>Sandia</li>
  
 		</ul>
+
+		<h3>Tablas</h3>
+		<table border="1">
+			<tr>
+				<th>Nombre</th>
+				<th>Apellidos</th>
+				<th>Pais</th>
+			</tr>
+			<tr>
+				<td>Andres</td>
+				<td>Ronquillo</td>
+				<td>Guatemala</td>
+			</tr>
+			<tr>
+				<td>Holiverio</td>
+				<td colspan="2">Marticorena</td>
+				
+			</tr>
+		</table>
 
 
 </body>
